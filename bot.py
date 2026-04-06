@@ -8,7 +8,7 @@ is_playing = False
 
 ICECAST_PASSWORD = "yourpassword"
 ICECAST_MOUNT = "/stream"
-STREAM_URL = ""  # will be set after deploy
+STREAM_URL = "https://musicbot-production-4746.up.railway.app:8000/stream"
 
 class MusicBot(BaseBot):
 
